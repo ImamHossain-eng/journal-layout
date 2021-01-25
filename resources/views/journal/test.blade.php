@@ -1,6 +1,15 @@
 @extends('layouts.journal')
 @section('content')
-    <div class="container">
+<head>
+    <style>
+        #test{
+            min-height:50vh;
+        }
+    </style>
+
+</head>
+<body>
+    <div class="container" id="test">
         <table class="table table-striped">
             <thead>
                 <th>Volume</th>
@@ -25,5 +34,8 @@
             </tbody>
         </table>
     </div>
+</body>
+
+    
 
 @endsection
